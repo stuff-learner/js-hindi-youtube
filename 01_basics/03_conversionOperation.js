@@ -10,9 +10,9 @@ let score = "33abc" // string output: NaN
 
 /*
 summary:
-"33" => 33
-"33abc" => NaN
-true 
+1. "33" => 33
+2. "33abc" => NaN
+3. true => 1; false => 0
 */
 
 // both way of coding is correct!!
@@ -22,3 +22,6 @@ console.log(typeof (score));
 let valueInNumber = Number(score) // string convert to number
 console.log(typeof valueInNumber); // output: number
 console.log(valueInNumber); // output: NaN
+
+let isLoggedIn = 1
+
