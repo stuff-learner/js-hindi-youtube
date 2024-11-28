@@ -25,3 +25,5 @@ console.log(valueInNumber); // output: NaN
 
 let isLoggedIn = 1
 
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(boolean)
