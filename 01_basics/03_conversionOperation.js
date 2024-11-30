@@ -11,7 +11,7 @@ let score = "33abc" // string output: NaN
 /*
 summary:
 1. "33" => 33
-2. "33abc" => NaN
+2. "33abc" => NaN (not-a-number)
 3. true => 1; false => 0
 */
 
@@ -23,7 +23,18 @@ let valueInNumber = Number(score) // string convert to number
 console.log(typeof valueInNumber); // output: number
 console.log(valueInNumber); // output: NaN
 
-let isLoggedIn = 1
+let isLoggedIn = 1 // output: true
+// let isLoggedIn = "" // output: false
+// let isLoggedIn = "aman kumar chaursiya" // output: true
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(boolean)
+console.log(booleanIsLoggedIn)
+
+// 1 => true; 0 => false
+// "" => false
+// "aman kumar chaursiya" => true
+
+let someNumber = 33
+let stringNumber = String(someNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber);
